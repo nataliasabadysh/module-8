@@ -23,14 +23,29 @@
         margin-bottom: 36px;
     }
     .page-logo {    order: 3;}
-    .menu {     margin-bottom: 70px;     padding: 0;} 
-    .banner-text-title {    margin-bottom: 26px;}
-    .banner-text {  margin-bottom: 10px;}
-    .banner {   padding-top: 30px;}
-
-    .partners-title {   margin-bottom: 20px;}
-    .partners-list-item:not(:last-child) {  margin-bottom: 30px;}
-    .partners-list {    margin-bottom: 30px;}
+    .menu {
+        margin-bottom: 70px;
+        padding: 0;
+    }
+    .banner-text-title {
+        margin-bottom: 26px;
+        font-weight: bold;
+    }
+    .banner-text {
+        margin-bottom: 10px;
+    }
+    .banner {
+        padding-top: 30px;
+    }
+    .partners-title {
+        margin-bottom: 20px;
+    }
+    .partners-list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .partners-list {
+        margin-bottom: 30px;
+    }
     main {  padding-bottom: 56px;}
 }
 @media (min-width: 748px) and (max-width: 939px) {
@@ -98,6 +113,7 @@
     .banner-text-title {
         max-width: 500px;
         font-size: 52px;
+        line-height: 1.5;
         font-weight: 700;
         margin: 117px auto 33px auto;
     }
