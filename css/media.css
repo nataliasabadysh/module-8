@@ -7,7 +7,7 @@
         padding: 4px 6px;
         border-radius: 25px;
     }
-        .menu-item a{
+    .menu-item a{
         padding: 4px 6px;
         border: 2px solid transparent;
     }
@@ -23,7 +23,7 @@
         margin-bottom: 36px;
     }
     .page-logo {    order: 3;}
-    .menu {     margin-bottom: 130px;}
+    .menu {     margin-bottom: 70px;     padding: 0;} 
     .banner-text-title {    margin-bottom: 26px;}
     .banner-text {  margin-bottom: 10px;}
     .banner {   padding-top: 30px;}
@@ -37,7 +37,12 @@
     .conteiner {
         margin: 0 auto;
     }
-    .banner {min-height: 748px;}
+    .menu-item a {
+        padding: 5px 3px;
+    }
+    .banner {
+        min-height: 748px;
+    }
     .page-nav {
         width: 660px;
         justify-content: space-between;
@@ -70,14 +75,12 @@
         display: block;
         width: 90px;
         text-align: center;
-        padding: 10px;
         border: 2px solid transparent;
      }
-    .menu {width: 180px;}
+    .menu {    padding: 0;}
     .page-nav {
         width: 940px;
         justify-content: space-between;
-        margin-bottom: 80px;
         padding-top: 30px;
         height: 80px;
     }
